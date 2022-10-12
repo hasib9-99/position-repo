@@ -50,6 +50,6 @@
     width: 10px;
     height: 600px;
     background-color:  rgb(119, 88, 63);
-    align-self: flex-start;
-    justify-content: flex-start;
+    align-self: flex-start; 
+    transform: translate(-190px);
 }
