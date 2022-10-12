@@ -4,7 +4,7 @@
 .green{
     width: 500px;
     height: 300px;
-    margin: 50px 50px;
+    margin: 50px 50px 500px;
     background: green;
     position: relative;
     justify-content: center;
@@ -26,3 +26,30 @@
     position: absolute;
     right: 100%;
  }
+ /*---------------------
+        use flex
+----------------------*/
+.section{
+    width: 500px;
+    height: 300px;
+    margin: 50px 50px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.red-circle{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+.stic-2{
+    width: 10px;
+    height: 600px;
+    background-color:  rgb(119, 88, 63);
+    align-self: flex-start;
+    justify-content: flex-start;
+}
